@@ -1,0 +1,192 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(185, 91, 252);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+ }
+
+#intro {
+    background-color: rgb(255, 123, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main-section-content {
+    background-color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bestsellers,
+footer {
+    background-color: rgba(113, 249, 1, 0.734);
+}
+
+header,
+nav,
+#intro, 
+#main-section, 
+#bestsellers, 
+footer {
+    border: 1px solid black;
+}
+
+header,
+nav,
+#main-section {
+    border-radius: 10px;
+}
+
+header h1 {
+    color: rgb(28, 23, 67);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+h2,
+p {
+    color: rgb(63, 25, 22);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+tr:last-child {
+    color: red;
+}
+
+span {
+    color: blue;
+}
+
+footer p:first-child span {
+    color: chocolate;
+}
+
+.teacher-info {
+    border: 1px solid black;
+    border-radius: spx;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 6px 0px 21px #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6.7px;
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+/* second lesson */
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li a:hover {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+/* third lesson */
+nav li {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.teacher-info div:last-child {
+    margin-left: 50px;
+}
+.main-section-content {
+padding: 20px;
+}
+table {
+    margin:auto;
+}
+th,
+td {
+    padding: 10px;
+}
+footer {
+    padding: 20px;
+}
+
+#bestseller h2{
+    padding: 20px;
+}
+ol li {
+    margin-bottom: 20px;
+}
+/* fourth lesson */
+
+#book-reviews p,
+  #book-reviews h3 {
+      position: relative;
+}
+
+/* fifth lesson */
+
+#videos div {
+display: flex;
+justify-content: safe;
+}
+
+#teachers {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+
